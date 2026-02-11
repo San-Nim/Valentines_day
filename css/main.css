@@ -1238,12 +1238,23 @@ body {
     transform: scale(0.8);
   }
 
+  .success-message {
+    padding-bottom: 8rem;
+    max-width: 90vw;
+  }
+
   .success-title {
     font-size: 1.75rem;
   }
 
   .success-subtitle {
     font-size: 1rem;
+  }
+
+  .ground-portion {
+    justify-content: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
   }
 }
 
@@ -1268,6 +1279,30 @@ body {
 
   .bonfire {
     transform: scale(0.6);
+  }
+
+  .success-message {
+    padding-bottom: 10rem;
+    max-width: 85vw;
+    margin-top: -2rem;
+  }
+
+  .success-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .success-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .ground-portion {
+    justify-content: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
